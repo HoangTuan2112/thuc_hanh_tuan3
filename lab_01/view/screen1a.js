@@ -5,7 +5,7 @@ import { View, Text, StyleSheet, Button } from 'react-native';
 const App = () => {
   return (
     <View style={styles.container}>
-    <LinearGradient
+      <LinearGradient
         colors={['#C7F4F6', '#D1F4F6', '#E5F4F5', '#00CCF9']}
         locations={[0, 0.3, 0.85, 1]}
         style={styles.container}
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    
+
     ...StyleSheet.absoluteFillObject,
   },
 
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    
+
   },
   view0: {
     flex: 0.5,
